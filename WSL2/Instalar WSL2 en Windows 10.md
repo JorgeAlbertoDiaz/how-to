@@ -89,7 +89,7 @@ wsl --set-default-version 2
 - [Documentación de WSL 2][3]
 - [Anuncios sobre WSL 2][4]
 - [Comparando WSL 2 con respecto a WSL 1][5]
-- [Blog: Linea de Comandos de Windows]: https://devblogs.microsoft.com/commandline/
+- [Blog: Linea de Comandos de Windows]: [7]
 
 [1]: https://www.youtube.com/watch?v=_fntjriRe48
 [2]: https://docs.microsoft.com/en-us/windows/wsl/about
@@ -97,3 +97,4 @@ wsl --set-default-version 2
 [4]: https://devblogs.microsoft.com/commandline/announcing-wsl-2/
 [5]: https://docs.microsoft.com/en-us/windows/wsl/compare-versions
 [6]: https://insider.windows.com/getting-started
+[7]: https://devblogs.microsoft.com/commandline/
