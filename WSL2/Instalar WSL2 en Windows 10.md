@@ -80,7 +80,11 @@ wsl --set-default-version 2
 
 **2.** Desde la página de la distribución presionamos ***Obtener*** y esperamos que se instale.
 
+![Obtener Windows Store](https://docs.microsoft.com/en-us/windows/wsl/media/ubuntustore.png)
+
 **3.** La primera vez que iniciemos la apliación nos pedirá que creemos un usuario y su contraseña, una vez hecho esto ya tendremos todo listo para usar.
+
+![Primer inicio de Ubuntu en WSL2](https://docs.microsoft.com/en-us/windows/wsl/media/ubuntuinstall.png)
 
 ## Referencias
 
@@ -89,7 +93,7 @@ wsl --set-default-version 2
 - [Documentación de WSL 2][3]
 - [Anuncios sobre WSL 2][4]
 - [Comparando WSL 2 con respecto a WSL 1][5]
-- [Blog: Linea de Comandos de Windows]: [7]
+- [Blog: Linea de Comandos de Windows][7]
 
 [1]: https://www.youtube.com/watch?v=_fntjriRe48
 [2]: https://docs.microsoft.com/en-us/windows/wsl/about
