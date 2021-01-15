@@ -16,6 +16,7 @@
   - **npm**: Es un administrador de paquetes de alta calidad que maneja la modularidad en Node.js. [Más sobre npm][8].
   - **gyp**: Maneja el sistema de compilación, es un generador de proyectos basado en python y copiado de V8. [Más sobre gyp][9].
   - **gtest**: también conocida como **GoogleTest**, es una librería C/C++ diseñada para probar el código nativo, esta librería fue tomada de **chromium**. [Más sobre gtest][10].
+  - **nvm**: **N**ode **V**ersion **M**anager, es una herramienta que nos permite instalar y gestionar las versiones que tengamos instaladas en el sistema de NodeJs. Es la forma recomendada de instalar y usar NodeJS. [Más sobre nvm][13].
   
   ## Referencias:
   
@@ -36,6 +37,7 @@
  - [Documentación sobre npm][8]
  - [Documentación sobre gyp][9]
  - [Documentación sobre gtest (Google Test)][10]
+ - [Documentación sobre nvm][13]
  
   [1]: https://nodejs.org/en/docs/
   [2]: https://v8.dev/docs
@@ -49,3 +51,4 @@
   [10]: https://github.com/google/googletest
   [11]: https://nodejs.org/es/
   [12]: https://github.com/nodejs/node
+  [13]: https://github.com/nvm-sh/nvm
