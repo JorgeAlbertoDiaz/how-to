@@ -50,6 +50,8 @@ Creating default alias: default -> 14.15.4 (-> v14.15.4)
    v14.15.4
    ```
    
+   > Node 14.15.4 ya viene con **npm 6.14.10**, podemos verificarlo con el comando `npm --version`.
+   
   ## Referencias:
   
   #### Sitio Oficial:
