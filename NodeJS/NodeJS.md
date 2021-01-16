@@ -18,6 +18,38 @@
   - **gtest**: también conocida como **GoogleTest**, es una librería C/C++ diseñada para probar el código nativo, esta librería fue tomada de **chromium**. [Más sobre gtest][10].
   - **nvm**: **N**ode **V**ersion **M**anager, es una herramienta que nos permite instalar y gestionar las versiones que tengamos instaladas en el sistema de NodeJs. Es la forma recomendada de instalar y usar NodeJS. [Más sobre nvm][13].
   
+  ## Instalación de NodeJS en Linux
+  
+  ### Instalación mediante nvm
+  Este sería el método de instalación recomendado de NodeJS.
+   
+   #### **Paso 1.**: Instalar nvm
+   Para instalar nvm puedes seguir [esta guia][14].
+   
+   #### **Paso 2.**: Instalar Nodejs con nvm
+   En este caso vamos a instalar la última versión LTS, para verificar cual es puedes visitar el [sitio oficial de NodeJS][9].
+   
+```bash
+$ nvm install 14.15.4
+   
+Downloading and installing node v14.15.4...
+Downloading https://nodejs.org/dist/v14.15.4/node-v14.15.4-linux-x64.tar.xz...
+################################################################################################################# 100.0%
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v14.15.4 (npm v6.14.10)
+Creating default alias: default -> 14.15.4 (-> v14.15.4)
+```
+   > Podríamos poner directamente `nvm install node` pero es buena práctica especificar que versión estamos instalando.
+   
+   #### Verificar instalación
+   Podemos verificar la instalación el siguiente comando:
+   
+   ```bash
+   $ node --version
+   v14.15.4
+   ```
+   
   ## Referencias:
   
   #### Sitio Oficial:
@@ -52,3 +84,4 @@
   [11]: https://nodejs.org/es/
   [12]: https://github.com/nodejs/node
   [13]: https://github.com/nvm-sh/nvm
+  [14]: https://github.com/JorgeAlbertoDiaz/how-to/blob/main/NodeJS/instalaci%C3%B3n%20de%20nvm.md
