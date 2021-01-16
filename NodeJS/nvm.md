@@ -14,6 +14,14 @@ $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bas
 $ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 ```
 
+## Hacer que impacten los cambios
+Para poder verificar si la instalacion se hizo correctamente debemos cerrar sesión y volverla a abrir.
+Otra opción sería ejecutar el siguiente comando:
+
+```bash
+$ source ~/.profile
+```
+
 ## Verificar Instalación
 Para verificar que la instalación haya sido exitosa puedes ejecutar alguno de los siguientes comandos:
 
