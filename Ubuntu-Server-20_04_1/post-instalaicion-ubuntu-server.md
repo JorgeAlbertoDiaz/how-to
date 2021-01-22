@@ -48,7 +48,7 @@ SSH o **S**ecure **Sh**ell es un protocolo de comunicaciones seguras para conect
 Lo más importante de `SSH` es que **es capaz de encriptar la sesión de conexión**, cosa que no es posible con FTP o Telnet, protocolos mucho más inseguros y ya poco utilizados.
 
 ```sh
-sudo apt-get install -y openssh-server
+sudo apt install -y openssh-server
 ```
 
 ## Configuración del firewall
@@ -98,7 +98,8 @@ OpenSSH (v6)    ALLOW         Anywhere
 
 ```
 
-> From 
+> Ahora en la columna From nos dice que acepta conexiones desde cualquier dirección pero podemos restrigir esto con direcciones específicas o con rangos de direcciones.
+
 ## Referencias
 
 - [Recomendaciones generales luego de instalar linux][1].
