@@ -1,4 +1,4 @@
-# Que hacer luego de instalar Ubuntu Server 20.04.01 (live server)
+# Que hacer luego de instalar Ubuntu Server 20.04 (live server)
 
 ## Actualizar el Sistema
 
@@ -102,6 +102,7 @@ OpenSSH (v6)    ALLOW         Anywhere
 
 ## Referencias
 
+- [Instalación de Ubuntu Server 20.04][4]
 - [Recomendaciones generales luego de instalar linux][1].
 - [Configurar SSH para usar autenticacion de dos factores][2].
 - [Generar llaves SSH en Windows 10][3].
@@ -110,3 +111,4 @@ OpenSSH (v6)    ALLOW         Anywhere
 [1]: https://wiki.archlinux.org/index.php/Users_and_groups_(Espa%C3%B1ol)#Administraci%C3%B3n_de_usuarios
 [2]: https://ubuntu.com/tutorials/configure-ssh-2fa#1-overview
 [3]: https://ubuntu.com/tutorials/ssh-keygen-on-windows#1-overview
+[4]: https://github.com/JorgeAlbertoDiaz/how-to/blob/main/Ubuntu-Server-20_04_1/instalacion-ubuntu-server.md
